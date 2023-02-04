@@ -24,6 +24,7 @@
   - MangoDB
   - Neo4j
   - Cassandra
+  - SQLite
 
 ## Evolution of Database
 1. Flat File Database
@@ -42,6 +43,10 @@ Examples of relational database:
 2. Microsoft SQL Server
 3. MySQL
 4. PostgreSQL
+5. SQLite
+  > (advantages of SQLite: In SQLite, a database is stored in a single file — a trait that distinguishes it from other database engines. This fact allows for a great deal of accessibility: copying a database is no more complicated than copying the file that stores the data, sharing a database can mean sending an email attachment.
+  Backdraws: It's a poor choice when many different users are updating the table at the same time (to maintain integrity of data, only one user can write to the file at a time). It also may require some more work to ensure the security of private data due to the same features that make SQLite accessible. Furthermore, SQLite does not offer the same exact functionality as many other database systems, limiting some advanced features other relational database systems offer. Lastly, SQLite does not validate data types. Where many other database software would reject data that does not conform to a table’s schema, SQLite allows users to store data of any type into any column.)
+
 
 ## Non-Relational Database
 1. Key Value Database
