@@ -25,7 +25,7 @@ You will know how to choose a database and what SQL concepts you need to learn t
 
 ## Install the IDE
 Mentioned here are the IDE for 4 most popular RDBMS:
-![Alt text](DB++IDE.png)
+![Alt text](Image/DB++IDE.png)
 
 # **Basic SQL**
 
