@@ -17,6 +17,7 @@
 
 ## DBMS
 + DBMS, aka Database management system, is a software which is used to manage your database. You need DBMS to interact with database to store, modify, retrieve and protect data.
++ The benefits of using a database management system include better organization of related information, more efficient storage and faster retrieval.
 + DBMS is also required to creat, modify and delete database. Users like you and me can use DBMS to enter commands in a specific language to interact with Database.
 + Examples of DBMS:
   - MySQL
